@@ -2677,12 +2677,30 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
-    Description = "Giao Lưu",
+    Title = "nhóm hỗ trợ",
+    Description = "Giao Lưu,hỗ trợ",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox");
+        setclipboard("https://zalo.me/g/uxlbxz736");
     end
 });
+v16.Home:AddButton({
+    Title = "YOUTOBE người làm ",
+    Description = "Đăng kí để script ngon hơn",
+    Callback = function()
+        setclipboard("https://youtube.com/@kaitomc276?si=eMx1zUHFGx9Wxs-v");
+    end
+});
+    AddButton(Home, {
+     Name = "fixlag Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kaitofixlag-hub/Fixlag/refs/heads/main/fixlag.txt"))()
+  end
+  })
 _G.FastAttackStrix_Mode = "Super Fast Attack";
 spawn(function()
     while wait() do
