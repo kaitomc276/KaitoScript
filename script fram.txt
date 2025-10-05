@@ -2690,8 +2690,9 @@ v16.Home:AddButton({
         setclipboard("https://youtube.com/@kaitomc276?si=eMx1zUHFGx9Wxs-v");
     end
 });
-    AddButton(Home, {
-     Name = "fixlag Hub",
+    v16.Home:AddButton({
+    Title = "YOUTOBE người làm ",
+    Description = "Đăng kí để script ngon hơn",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
